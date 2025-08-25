@@ -7,9 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-Thank you for visiting, and welcome to my homepage!
+<p style="color:red;">Thank you for visiting, and welcome to my homepage!</p>
 
-I am a Master's student in the Cyberspace Security program at the [University of Science and Technology of China](https://www.ustc.edu.cn/). My research interests lie in AI-generated content detection, with a focus on detecting AI-generated text. I am broadly interested in the intersection of machine learning, security, and trustworthy AI.
+I am a Master's student in the Cyberspace Security program at the [University of Science and Technology of China](https://www.ustc.edu.cn/). I am very fortunate to be advised by [Prof. Weiming Zhang](https://scholar.google.com/citations?hl=zh-CN&user=eTCfl6cAAAAJ).
+I have also had the privilege of being advised by [Prof. Yue Zhang](https://frcchang.github.io/) during my internship at the WestlakeNLP Lab, where I collaborated with [Guangsheng Bao](https://scholar.google.com/citations?user=cxPJx2kAAAAJ&hl=en) on detecting AI-generated texts in the era of large reasoning models.
+
+My research interests lie in AI-generated content detection, with a focus on detecting AI-generated text. I am broadly interested in the intersection of machine learning, security, and trustworthy AI.
 
 A data-driven personal website
 ======
