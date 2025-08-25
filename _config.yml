@@ -26,7 +26,7 @@ author:
   name             : "Xiao Yu (于潇)"
   pronouns         : # example: "she/her"  
   bio              : "A master's student in USTC"
-  location         : "Earth"
+  location         : "Hefei, China"
   employer         : "University of Science and Technology of China"
   uri              : # URL
   email            : "yuxiao1217@mail.ustc.edu.cn" 
@@ -37,9 +37,9 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=7yFTGKIAAAAJ&hl=zh-CN"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  # orcid            : "http://orcid.org/yourorcidurl"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
 
@@ -47,13 +47,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  # github           : "academicpages"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  # bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
