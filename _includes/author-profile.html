@@ -19,12 +19,12 @@
     <img src="{{ author.avatar }}"
          alt="{{ author.name }}"
          fetchpriority="high"
-         style="width: 150px; height: 150px; object-fit: cover; display: block; margin: 0 auto;" />
+         style="width: 200px; height: 280px; object-fit: cover; display: block; margin: 0 auto;" />
   {% else %}
     <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}"
          alt="{{ author.name }}"
          fetchpriority="high"
-         style="width: 150px; height: 150px; object-fit: cover; display: block; margin: 0 auto;" />
+         style="width: 220px; height: 280px; object-fit: cover; display: block; margin: 0 auto;" />
   {% endif %}
 </div>
 

@@ -6,13 +6,14 @@
   @include container;
   @include clearfix;
   margin-top: 2em;
-  padding-left: 1em;
+  padding-left: 0.5em;
   padding-right: 1em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
   @include breakpoint($x-large) {
-    max-width: $x-large;
+    // max-width: $x-large;
+    max-width: 1800px;
   }
 }
 
@@ -20,7 +21,7 @@
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
-    @include suffix(2 of 12);
+    @include suffix(0.1 of 12);
   }
 
   .page__inner-wrap {
@@ -49,19 +50,53 @@
 }
 
 .page__content {
+  font-size: 0.95em;
+  line-height: 1.6;
 
   h2 {
-    padding-bottom: 0.5em;
+    padding-bottom: 0.2em;
     border-bottom: 1px solid var(--global-border-color);
   }
 
   p, li, dl {
-    font-size: 1em;
+    font-size: 1.0em;
+    line-height: 1.3;
+  }
+  
+  /* 添加列表样式控制 */
+  ul, ol {
+    margin-bottom: 0.8em;  /* 减少列表底部间距 */
+    
+    li {
+      margin-bottom: 0.3em;  /* 控制列表项之间的间距 */
+      line-height: 1.35;      /* 列表项内部行间距 */
+      
+      &:last-child {
+        margin-bottom: 0;     /* 最后一项不要下边距 */
+      }
+    }
+  }
+
+  /* 嵌套列表的特殊处理 */
+  li ul, li ol {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    
+    li {
+      margin-bottom: 0.2em;  /* 嵌套列表项间距更小 */
+      line-height: 1.5;
+    }
+  }
+
+  /* 段落后面跟着列表的间距 */
+  p + ul, p + ol {
+    margin-top: 0.5em;
   }
 
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
+    line-height: 1.2;
 
     /* sibling indentation*/
     @if $paragraph-indent == true {

@@ -12,6 +12,9 @@
 
   @include clearfix();
   margin-bottom: 1em;
+  margin-left: 2.6em;          // 添加左侧间距
+  margin-right: 2.6em;         // 添加右侧间距
+
 
   @media (orientation: portrait) {
     margin-top: 1em;
@@ -84,6 +87,8 @@
   display: table-cell;
   vertical-align: top;
   width: 36px;
+  margin-right: 20;     /* 大屏幕时可能不需要右边距 */
+  margin-bottom: 20px; /* 大屏幕时的下边距 */
   // set width only, for non-square avatars
   // height: 36px;
 
@@ -94,8 +99,8 @@
   }
 
   img {
-    max-width: 175px;
-    border-radius: 50%;
+    max-width: 240px;
+    border-radius: 0%;
 
     @include breakpoint($large) {
       padding: 5px;
